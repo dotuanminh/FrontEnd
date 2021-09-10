@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test Webpage</title>
+	<body>
+		<h3>Grocery List</h3>
+		<ul style ="list-style-type: square;"> <!-- This is unorderd list-->
+			<li>bread dough</li>
+			<li>Tomato sauce</li>
+			<li>Cheese</li>
+			<li>Pepper</li>
+		</ul>
+		<h3>Todo list</h3>
+		<ol type ="1"><!--"A","a, "i","I","1"--><!--This is ordered list-->
+			<li>Clean the house</li>
+			<li>Learn some HTML</li>
+			<li>Learn some Calculus 2</li>
+		</ol >
+		<!--Description List-->
+		<h3>Web Dev languages</h3>
+		<dl>
+			<dt>HTML</dt>
+			<dd>-add structure to wevb page</dd>
+			<dt>CSS</dt>
+			<dd>- add style to web page</dd>
+			<dt>JavaScript</dt>
+			<dd>-add funtionality to webpage</dd>
+		</dl>
+		<!--exmaple of nested list-->
+		<h3>Grocery List 2.0</h3>
+		<ul style ="list-style-type: square;"> <!-- This is unorderd list-->
+			<li>bread dough</li>
+			<li>Tomato sauce</li>
+			<li>Cheese</li>
+			<li>toppings</li>
+				<ul>
+					<li>peppers</li>
+					<li>mushrooms</li>
+				</ul>
+		</ul>
+
+	</body>
+
+
+</html>

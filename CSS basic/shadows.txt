@@ -1,0 +1,35 @@
+h1{
+	border: 1px solid;  
+	width: 200 px; 
+	padding: 25 px; 
+	background-color: black ; 
+	color: white ; 
+	border-color: black;
+	text-shadow: 2px 2px 3px yellow,0px -5px 5px red;
+
+	/* 
+		horizontal(px)
+		vertical(px)
+		blur(px)
+		color(name,rgb,hex)
+	*/
+	box-shadow: 10px 10px 5px #666666 ; 
+	/* 
+		horizontal(px)
+		vertical(px)
+		blur(px)
+		color(name,rgb,hex)
+	*/
+
+}
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+				
+		</head>
+		<body>
+			<h1>Shadow demo</h1>
+		</body>
+	</html>

@@ -1,0 +1,66 @@
+a:link {color:blue;}: Hiển thị hiệu ứng khác biệt để người đọc biết đây là đường liên kết.
+a:visited {color:green;}: Đường link đã từng được click vào.
+a:hover {color:red;}: Di chuột qua đường link.
+a:active {color:navy;}: Đường link đang được nhấp chuột vào.
+
+a:link{
+	color: #78ffd0;
+}
+a:visited{
+	color: red ; 
+}
+
+button:hover{
+	background-color: #ff4529;
+	color: white; 
+}
+button active{
+	background-color: #d13b24;
+}
+/*li:first-child{
+	background-color: #93ff7d;
+} 
+li:last-child
+li:nth-child(5){
+	background-color: #93ff7d;
+} 
+
+li:nth-child(n){
+	background-color: #93ff7d;
+}
+/*co the dien even hoac odd vao
+
+li:nth-child(an+b){
+	/*a= cylcle class
+	n=counter( starts at 0)
+	b= off set value
+} */
+
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+				
+		</head>
+		<body>
+			<a href="https:\\www.google.com" >
+				www.google.com
+			</a>
+			<br><br>
+			<button type = "button"> Click Me</button>
+			<br><br>
+			<ul>
+				<li>This is item #1</li>
+				<li>This is item #2</li>
+				<li>This is item #3</li>
+				<li>This is item #4</li>
+				<li>This is item #5</li>
+				<li>This is item #6</li>
+				<li>This is item #7</li>
+				<li>This is item #8</li>
+				<li>This is item #9</li>
+				<li>This is item #10</li>
+			</ul>
+		</body>
+	</html>

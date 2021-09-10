@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test Webpage</title>
+	<body>
+		<h2>Personal Finances</h2>
+		<table border=2px bgcolor="black" height =150 width="100%">
+			<tr bgcolor="grey"> <!-- th will be bole and center, td will be left and not bold-->
+				<th height= 10  width="75">Month:</th>
+				<th height= 10  width="75">January</th>
+				<th height= 10  width="75">Feburary</th>
+				<th height= 10  width="75"> March</th>
+				<th height= 10  width="75">April</th>
+			</tr>
+			<tr bgcolor="yellow" align="center">
+				<th>Income:</th>
+				<td>1000</td>
+				<td>1500</td>
+				<td>2300</td>
+				<td>3000</td>
+			</tr>
+			<tr bgcolor="red" align="center">
+				<th>Expenses:</th>
+				<td>100</td>
+				<td>500</td>
+				<td>300</td>
+				<td>2000</td>
+
+			</tr>
+			<tr bgcolor="green" align="center">
+				<th>Savings:s</th>
+				<td>900</td>
+				<td>1000</td>
+				<td>2000</td>
+				<td>1000</td>
+			</tr>
+		</table>
+
+	</body>
+
+
+</html>

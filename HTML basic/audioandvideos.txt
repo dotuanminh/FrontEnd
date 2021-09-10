@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test Webpage</title>
+	<body>
+		<h1>ZingMp3</h1>
+		<br>
+		MamaBoy - HIEUTHUHAI:
+		<br>
+		<audio controls="" loop="">
+			<source src="mamaboy.mp3" type="">
+				your broser does not support audio
+		</audio>
+		<br>
+		<video controls="" width="50% " height="30%" >
+			<source src="mamaboy.mp4" type="">
+		</video>
+	</body>
+
+
+</html>

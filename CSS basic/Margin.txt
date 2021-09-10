@@ -1,0 +1,83 @@
+margin là khoảng cách border đến khung page
+
+html{
+	margin-top: -21 px; 
+	margin-left: -8 px; 
+
+}
+h1{
+	border: 1px solid; 
+	width: 300 px; 
+}
+p{
+	border: 1px solid ; 
+	width: 250 px;
+	padding: 25px;
+	margin: 25px; 
+
+}
+#p1{
+		margin: 25px; 
+
+}
+
+#p2{
+	margin-right: 75px; 
+	margin-left: 25px; 
+	margin-bottom: 25px; 
+	margin-top: 75px; 
+	/* 
+	this is actually the same
+	*/
+	margin :75px 75px 25px 25px ;   
+}
+#p3{
+	margin: 10% 20% 20% 40%;
+}
+#p4{
+	margin: auto ; 
+	/* This is use much to make it in to the middle of the site*/
+
+}
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+				
+		</head>
+		<body>
+			<h1>Margin Demo</h1>
+			<p id="p1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p id="p2">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>	
+			<p id="p3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>	
+			<p id="p4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>		
+		</body>
+	</html>

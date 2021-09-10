@@ -1,0 +1,23 @@
+Tag <meta /> cung cấp thông tin dữ liệu về văn bản HTML, thông tin dữ liệu sẽ không được hiển thị trên trình duyệt.
+Tag <meta /> thường được sử dụng để xác định mô tả trang (description), từ khóa (keywords), tác giả của văn bản (author), sửa đổi lần cuối (last modified), và thông tin dữ liệu khác.
+Tag <meta /> có thể được sử dụng bởi các trình duyệt (hiển thị nội dung hoặc tải lại trang), công cụ tìm kiếm (từ khoá), hoặc các dịch vụ web khác.
+Tag <meta /> luôn truyền dưới dạng các cặp tên và giá trị.
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Test Webpage</title>
+			<meta charset="utf-8">
+			<meta name="keywords" content="HTML,tutorial,Bro Code, Youtube">
+			<meta name="description" content="Bro Code HTML tutorial for beginners">
+			<meta name="author" content="Bro Washington">
+			<meta name="viewport" conten="
+			width=device-width, initial_scale=1.0">
+			<meta http-equiv="refresh" content="3">
+		</head>
+		<body>
+			<h1>Test</h1>
+			<h1>Test</h1>
+			<h1>Test</h1>
+		</body>
+	</html>

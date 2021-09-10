@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test Webpage</title>
+	<body>
+		<a href="http://www.google.com" target="_blank">If you click on this you wil go to Google's Homepage</a>
+		<br>
+		<br>
+		<a href="jisoo.jpg" download= "jisoo target ="_blank">Download a meme</a>
+		<br>
+		<br>
+		<img src="jisoo.jpg" height="50%" width="50%" alt= "This is Jisoo">
+		<a href="https://vi.wikipedia.org/wiki/Jisoo"><img src="jisoo.jpg" height="50%" width="50%" ></a>
+		<!-- Co the lay anh tu tran meng bang cach lay nguon tren mang-->
+	</body>
+
+
+</html>

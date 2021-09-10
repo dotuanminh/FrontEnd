@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test Webpage</title>
+	<body>
+		<button name = "Simple_Button" type ="Button">
+			Click me :) 
+		</button>
+		<button name ="submit_button" type= "submit" value="Submit">
+			Submit
+		</button>
+		<button name ="Reset_button" type= "reset" value="Reset">
+			Submit
+		</button>
+		<button disabled="">
+			Disable
+		</button>
+		<button autofocus="">
+			Autofocus
+		</button>
+		<button onclick="alert('You clicked on a button')">
+			Alert
+		</button>
+		<a href="https://www.google.com">
+		<button>
+			Google 
+		</button>
+		</a>
+
+		<br>
+		<br>
+		<button style="background-color: green;
+						color: red;
+						font-size: 18px;
+						font-family: monospace;
+						">
+			CSS style
+		</button>
+	</body>
+
+
+</html>

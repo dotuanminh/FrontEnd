@@ -1,0 +1,31 @@
+Thẻ div dùng để gom nhóm nhiều thẻ HTML còn thẻ span dùng để gom nhóm thẻ inline HTML.
+Nhóm thẻ block HTML thì mỗi thẻ sẽ chiếm hết một dòng
+ví dụ : div, p, h1, h2
+Nhóm thẻ inline HTML thì mỗi tẻ sẽ chỉ chiếm 1 khu vục và các thẻ kế tiếp sẽ nằm trong cùng một hàng cho đến hêt mới xuống hàng.
+vi dụ : b, span, del, strong.
+
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Da best Website</title>
+		</head>
+		<body >
+			<h1>Span tags</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<span style="color: red"> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </span> 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<h1>Div Tag</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. <div style="color: red">Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </div> 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</body>
+	</html>

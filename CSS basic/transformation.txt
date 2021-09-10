@@ -1,0 +1,57 @@
+p{
+	width: 100px;
+	background-color: red ;
+	font-size: 85 px; 
+	text-align: center; 
+	margin: 0px;  
+}
+
+#p1{
+
+}
+
+#p2{
+	/* transform: translateX(50px) 
+	transform: translateY(50px); 
+	transform: translate(50px,50px); */
+
+	/* transform: rotateX(180deg);
+	transform: rotateY();
+	transform: rotateZ();
+	transform: rotata(); */
+
+	/* transform: scaleX() ;  
+	transform: scaleX() ;
+	transform: scaleY() ;
+	transform: scale() ;*/
+
+	/*transform: skew();
+	transform: skewX();
+	transform: skewY(); */
+
+	transform: matrix(0.5,0,0,0.5,0,0);
+	/* scaleX();
+	skewY();
+	skawX();
+	scaleY() ;
+	translateX();
+	translateY() ;
+	*/ 
+
+
+}
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+				
+		</head>
+		<body>
+			<p id="p1">
+				Hi
+			</p>
+			<br>
+			<p id="p2"> Hi</p>
+		</body>
+	</html>

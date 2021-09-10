@@ -1,0 +1,64 @@
+#p1{
+	width: 100px;
+	height: 100px; 
+	background-color: red; 
+	font-size: 85px;
+	text-align: center; 
+	margin: 0px;  
+	
+}
+
+#p1:hover {
+	animation:myFont; 
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myColorAnimation{
+	0%{background-color: red}
+	20%{background-color: blue}
+	40%{background-color: green}
+	60%{background-color: purple}
+	80%{background-color: yellow}
+	100%{background-color: orange}
+}
+
+@keyframes myRotationAnimation{
+	/*100%{transform: rotateX(360deg);}
+	100%{transform: rotateY(360deg);}
+	100%{transform: rotateZ(360deg);} */
+}
+
+@keyframes myTranslate{
+	50%{transform: translate(50px, 50px);}
+}
+
+@keyframes myScale{
+	50%{transform: scale(2,2);}
+}
+
+@keyframes myOpacity{
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+
+}
+
+@keyframes myFont{
+	0%{font-size: 85px;}
+	50%{font-size: 100px;}
+	100%{font-size: 85px;}
+
+}
+
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+				
+		</head>
+		<body>
+			<p id="p1">HI</p>
+		</body>
+	</html>

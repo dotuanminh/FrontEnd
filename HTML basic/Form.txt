@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test Webpage</title>
+	<body>
+		<form action="">
+			<label for="First_name">First Name :</label>
+			<input type="text" id="First_name" name="First_name" 
+			placeholder="Enter first name">
+			<br> <br>
+			<label for="Last_name">Last Name :</label>
+			<input type="text" id="Last_name" name="Last_name"
+			placeholder="Enter last name">
+			<input type="reset">
+			<br><br>
+			<label for="title"> Title:</label>
+			<label for="Mr.">Mr: </label>
+			<input type="radio" id="Mr:" value="Mr." name="title"> 
+			<label for="Mrs.">Mrs: </label>
+			<input type="radio" id="Mrs:" value="Mrs." name="title">
+			<br><br>
+			<label for="Payment">Payment</label>
+			<select id="Payment">
+				<option value ="visa">visa</option>
+				<option value ="mastercard"> mastercard</option>
+				<option value ="check">check </option>
+				<option value ="giftcard"> giftcard </option>
+			</select>
+			<br><br>
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder ="minhdo@gmail.com">
+			<br><br>
+
+			<label for="Birthday">Birthday:</label>
+			<input type="date" name="birthday" id="birthday" min="2000-01-01">
+			<br><br>
+
+			<label for="Quantity">Quatity:</label>
+			<input type="number" name="Quantity" id="Quantity" min = "0" max="99">
+			<br><br>
+
+			<label for="Telephone">Tel:</label>
+			<input type="tel" name="Telephone" id="Telephone">
+			<br><br>
+
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" maxlength="12">  	
+			max 12 charaters
+			<br><br>
+
+			<label for="slider"> Rate us:</label>	
+			1<input type="range" name="slider" id="slider" step="25" value="100">5 
+			<br><br>
+
+			<label for="sub"> Subscribe:</label>
+			<input type="checkbox" name="sub" id="sub">
+			<br><br>
+
+			<label for="file">Upload a file</label>
+			<input type="file" name="file" id="file" accept=".txt">
+			<br><br>
+			
+
+
+
+
+
+
+		</form>
+	</body>
+
+
+</html>
